@@ -1,12 +1,8 @@
 ---
-title: Test
-has_children: true
+title: Configuration
+has_children: false
 nav_order: 2
 ---
 
-# Another page
+# Configuration
 
-Test this
-
-
-blah
