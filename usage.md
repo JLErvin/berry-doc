@@ -50,7 +50,7 @@ berryc move_relative 10 10
     * snap the focused window to fill the left half of the screen
 * `snap_right`
     * snap the focused window to fill the right half of the screen
-* `cardinal_focux`*`1/2/3/4`*
+* `cardinal_focus`*`1/2/3/4`*
     * shift focus to the nearest client in the specified direction
 * `toggle_decorations`
     * toggle decorations for the focused client
@@ -58,8 +58,4 @@ berryc move_relative 10 10
     * change focus to the next client in the stack
 * `pointer_focus`
     * focus the window under the current pointer (used by `sxhkd`)
-* `smart_place`*`true/false`*
-    * place newly created clients using `berry`'s DP placement algorithm
-* `draw_text`*`true/false`*
-    * set whether or not text is draw in window title bars
 
