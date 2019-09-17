@@ -59,3 +59,19 @@ berryc move_relative 10 10
 * `pointer_focus`
     * focus the window under the current pointer (used by `sxhkd`)
 
+
+### Secondary Applications
+
+`berry` is designed with the unix philosophy in mind - do one thing and do it well.
+Therefore, you will need other applications to emulate an experience similar to that
+of a full desktop environment.
+The following is a list of applications that the creator recommends:
+
+* System Bar
+    * [lemonbar](https://github.com/LemonBoy/bar)
+    * [polybar](https://github.com/polybar/polybar)
+* Application Launcher
+    * [dmenu](https://tools.suckless.org/dmenu/)
+    * [rofi](https://github.com/davatorium/rofi)
+* Notification Daemon
+    * [dunst](daemons)
