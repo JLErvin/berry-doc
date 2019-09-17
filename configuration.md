@@ -53,6 +53,8 @@ berryc inner_focus_color ffffff
     * Determine whether or not newly placed windows should be placed in the largest available space.
 * `json_status`*`true/false`*
     * Determine whether or not `BERRY_WINDOW_STATUS` returns JSON formatted text.
+* `name_desktop`*`i``name`*
+    * Name the `i`th desktop `name`. Used with `_NET_DESKTOP_NAMES`.
 
 Please note that for the previous commands, *`XXXXXX`* represents a hex color **without** the leading #.
 

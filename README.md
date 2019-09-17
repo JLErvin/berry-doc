@@ -7,7 +7,7 @@ Its main features include:
 
 * Controlled via a powerful command-line client, allowing users to control windows via a hotkey daemon such as [sxhkd](https://github.com/baskerville/sxhkd)
 or expand functionality via shell scripts.
-* Small, hackable source code.
+* Small, hackable [source code](https://github.com/jlervin/berry).
 * Extensible themeing options with double borders, title bars, and window text.
 * Intuitively place new windows in unoccupied spaces.
 * Virtual desktops.
