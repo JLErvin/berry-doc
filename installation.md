@@ -47,6 +47,11 @@ On `void`, install by running:
 sudo xbps-install -S berry
 ```
 
+On `KISS`, install by running:
+```
+kiss b berry && kiss i berry
+```
+
 ## Start berry using a display manager
 
 If you are using a display manager, create a file called `berry.desktop` in `/usr/share/xsessions`
