@@ -45,6 +45,29 @@ that can be viewed via `xprop`.
 * `_NET_DESKTOP_NAMES`
 * `_NET_DESKTOP_VIEWPORT`
 
+## Scripting
+
+Since `berry` is controlled via it's client, `berryc`, it is possible, and encouraged,
+to write shell scripts to expand its functionality.
+
+As a simple example, consider writing a shell script to send a window to occupy
+the top left quadrant of the screen.
+Somewhere in your `PATH` you could write a script `send_top_right` with the following
+contents:
+```bash
+
+#!/usr/bin/env bash
+
+berryc window_move_absolute 0 0
+berryc window_resize_absolute 540 960
+```
+
+You could execute this via the command line or bind the script to a set of keystrokes
+in your `sxhkdrc`.
+
+To make this program more generic, you could use a utility such as `xrandr`
+to query display dimensions.
+
 ## BERRY_WINDOW_STATUS
 
 ---
