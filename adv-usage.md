@@ -55,7 +55,6 @@ the top left quadrant of the screen.
 Somewhere in your `PATH` you could write a script `send_top_right` with the following
 contents:
 ```bash
-
 #!/usr/bin/env bash
 
 berryc window_move_absolute 0 0
