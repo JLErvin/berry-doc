@@ -29,8 +29,8 @@ Copy the sample configuration files (assuming you are in the `berry` directory)
 
 ```bash
 mkdir $HOME/.config/berry
-cp example/sxhkdrc $HOME/.config/berry/sxhkdrc
-cp example/autostart $HOME/.config/berry/autostart
+cp examples/sxhkdrc $HOME/.config/berry/sxhkdrc
+cp examples/autostart $HOME/.config/berry/autostart
 ```
 
 ## From a package manger
