@@ -51,7 +51,7 @@ berryc inner_focus_color ffffff
     * Determine whether or not text should be draw in title bars
 * `smart_place`*`true/false`*
     * Determine whether or not newly placed windows should be placed in the largest available space.
-* `monitor_save`*`i`**`j`*
+* `save_monitor`*`i`**`j`*
     * Associate the ith monitor to the jth workspace
 * `json_status`*`true/false`*
     * Determine whether or not `BERRY_WINDOW_STATUS` returns JSON formatted text.
