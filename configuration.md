@@ -56,7 +56,7 @@ berryc inner_focus_color ffffff
 * `name_desktop`*`i``name`*
     * Name the `i`th desktop `name`. Used with `_NET_DESKTOP_NAMES`.
 * `manage`*`Dialog|Toolbar|Menu|Splash|Utility`*
-    * Set `berry` to manage clients of the above type. Clients which are managed will be given decorations and are movable by the window manager. This is not retroactive for current clients.
+    * Set `berry` to manage clients of the above type. Clients which are managed will be given decorations and are movable by the window manager. This is not retroactive for current clients. Only Toolbars and Splahes are not handled by default.
 * `unmanage`*`Dialog|Toolbar|Menu|Splash|Utility`*
     * Set `berry` to not manage clients of the above type. 
 
