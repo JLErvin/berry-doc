@@ -47,7 +47,7 @@ berryc inner_focus_color ffffff
     * Set the height of the title bar, does not include border widths
 * `top_gap`*`X`*
     * Set the offset at the top of the monitor (usually for system bars)
-* `edge_gap`*`TOP`**`BOTTOM`**`LEFT`**`RIGHT`*
+* `edge_gap`*`TOP`* *`BOTTOM`* *`LEFT`* *`RIGHT`*
     * Set the edge gap around the monitor (must include all parameters)
 * `draw_text`*`true/false`*
     * Determine whether or not text should be draw in title bars
