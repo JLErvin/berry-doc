@@ -52,6 +52,12 @@ Grab `.deb` from [barnumbirr/berry-debian](https://github.com/barnumbirr/berry-d
 dpkg -i berry_<version>_amd64_<debian_version>.deb
 ```
 
+### FreeBSD
+
+```sh
+pkg install berry
+```
+
 ### Kiss
 
 ```bash
