@@ -9,7 +9,7 @@ nav_order: 2
 ## Build from source
 
 `berry` has two main dependencies: The `XLib` and `Xft` headers.
-On debian based distributions, these can be installed via the following commands:
+On Debian based distributions, these can be installed via the following commands:
 
 ```bash
 sudo apt-get install libx11-dev
@@ -33,23 +33,41 @@ cp examples/sxhkdrc $HOME/.config/berry/sxhkdrc
 cp examples/autostart $HOME/.config/berry/autostart
 ```
 
-## From a package manger
+## Using a package manager
 
-If you are using `void` or `arch` linux then `berry` is available via your package manager.
+Some operating systems already provide binaries for `berry`, for everyone else
+please [read the instructions to build `berry` from source](#build-from-source).
 
-On `arch`, install by running:
-```
+### Arch Linux
+
+```bash
 yay -S berry-git
 ```
 
-On `void`, install by running:
-```
-sudo xbps-install -S berry
+### Debian
+
+Grab `.deb` from [barnumbirr/berry-debian](https://github.com/barnumbirr/berry-debian/releases), then
+
+```bash
+dpkg -i berry_<version>_amd64_<debian_version>.deb
 ```
 
-On `KISS`, install by running:
+### FreeBSD
+
+```sh
+pkg install berry
 ```
+
+### Kiss
+
+```bash
 kiss b berry && kiss i berry
+```
+
+### Void Linux
+
+```bash
+sudo xbps-install -S berry
 ```
 
 ## Start berry using a display manager
