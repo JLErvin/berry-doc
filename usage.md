@@ -58,6 +58,8 @@ berryc move_relative 10 10
     * change focus to the next client in the stack
 * `pointer_focus`
     * focus the window under the current pointer (used by `sxhkd`)
+* `quit`
+    * close the window manager
 
 
 ### Secondary Applications
