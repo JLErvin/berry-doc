@@ -30,7 +30,7 @@ that will listen for the appropriate keystrokes and convert them
 into commands that `berryc` will execute (more on this architecture later).
 Which program you choose is up to you, but for the rest of this article I'll assume
 you're using `sxhkd`.
-You can build the program from it's source `[here](https://github.com/baskerville/sxhkd)`,
+You can build the program from it's source [here](https://github.com/baskerville/sxhkd),
 or install it via a package manager if your system allows it.
 
 Technically speaking, this is all the necessary software you need to run `berry`.
