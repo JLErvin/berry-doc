@@ -52,6 +52,18 @@ Grab `.deb` from [barnumbirr/berry-debian](https://github.com/barnumbirr/berry-d
 dpkg -i berry_<version>_amd64_<debian_version>.deb
 ```
 
+### GNU Guix
+
+`berry` is available from Guix R' Us [channel](https://guix.gnu.org/manual/en/html_node/Channels.html) provided by [WhereIsEveryone](https://whereis.みんな/)
+
+Once [subscribed](https://git.sr.ht/~whereiseveryone/guixrus#subscribing), run the following command:
+
+```bash
+guix install berry
+```
+
+[Substitutes](https://guix.gnu.org/manual/en/html_node/Substitutes.html) are available from [bags.whereis.みんな](https://bags.whereis.みんな/)
+
 ### FreeBSD
 
 ```sh
