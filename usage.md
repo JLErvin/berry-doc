@@ -72,8 +72,10 @@ The following is a list of applications that the creator recommends:
 * System Bar
     * [lemonbar](https://github.com/LemonBoy/bar)
     * [polybar](https://github.com/polybar/polybar)
+    * [eww](https://github.com/elkowar/eww)
 * Application Launcher
     * [dmenu](https://tools.suckless.org/dmenu/)
     * [rofi](https://github.com/davatorium/rofi)
 * Notification Daemon
     * [dunst](daemons)
+    * [wired](https://github.com/Toqozz/wired-notify)
